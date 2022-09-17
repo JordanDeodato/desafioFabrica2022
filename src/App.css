@@ -6,22 +6,6 @@
 
 body {
   text-align: center;
-}
-
-h1 {
-  text-shadow: 2px 2px 5px black;
-}
-
-ul {
-  display: flex;
-  justify-content: center;
-}
-
-li {
-  padding-right: 20px;
-}
-
-p {
-  width: 50%;
-  margin: auto;
+  font-family: 'Roboto', sans-serif;  
+  background-color: rgba(40, 146, 14, 0.721);
 }
