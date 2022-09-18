@@ -1,17 +1,37 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
+import ReactDOM from "react-dom/client";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Galeria from './Pages/Galeria';
 import GerarAnimal from './Pages/GerarAnimal';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "/galeria",
+        element: <Galeria />,
+      },
+      {
+        path: "/geraranimal",
+        element: <GerarAnimal/>,
+      }
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <Galeria />
-    <GerarAnimal />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
