@@ -11,9 +11,6 @@ const Header = () => {
                 <Botao nome="Escolha seu Animal" />
                 <Botao nome="Galeria" />
             </div>
-            <div className="container-animal">
-
-            </div>
         </div>
     )
 

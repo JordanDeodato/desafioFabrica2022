@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Galeria from './Pages/Galeria';
+import GerarAnimal from './Pages/GerarAnimal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Galeria />
+    <GerarAnimal />
   </React.StrictMode>
 );
 

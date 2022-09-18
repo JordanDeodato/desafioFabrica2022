@@ -1,0 +1,25 @@
+.new-folder {
+    width: 60%;
+    height: 750px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 30px;
+}
+.new-folder p {
+    text-align: left;
+    line-height: 30px;
+    margin-left: 250px;
+}
+
+.img-folder {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 500px;
+}
+
+.botao-gerar {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
