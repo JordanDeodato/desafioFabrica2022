@@ -3,7 +3,9 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div>
-            <img className='image' />
+            <div className='image'>
+                <h2 className='text-banner'>Venha conhecer a vida selvagem a centímetros de distância</h2>
+            </div>
 
             <div className='container'>
                 <section className='carrousel imagem1'>
